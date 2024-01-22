@@ -6,7 +6,8 @@ def extract_and_reverse(number):
     print("The number is: ", number)
     original_number = str(number)
     reverse_number = original_number[::-1]
-    
+
+    print("Result:", end=' ')
     #to extract the numbers
     for digit in reverse_number:
         print( digit, end=' ')
